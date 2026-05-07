@@ -1,0 +1,21 @@
+Start
+  ↓
+Input array x[] and size n
+  ↓
+Compute sum of elements
+  ↓
+mean = sum / n
+  ↓
+variance = 0
+  ↓
+Loop i = 0 to n-1
+  ↓
+variance += (x[i] - mean)^2
+  ↓
+variance = variance / n
+  ↓
+stdev = sqrt(variance)
+  ↓
+Return stdev
+  ↓
+End
